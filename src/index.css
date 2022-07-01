@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Title-bar {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  background: #F55A5A;
+  text-align: center;
+  padding-left: 50pc;
+}
+
+.Title-bar>img {
+  padding-right: 5px;
+}
+
+.Cards-list {
+  margin: 80px 70px 70px 70px;
+}
+
+.Card {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #F5F5F5;
+  margin-bottom: 50px;
+}
+
+.Card-image {
+  width: 400px;
+  height: 500px;
+  margin-right: 20px;
+}
+
+.Card-details {
+  margin-top: 0px;
+  padding-top: 0px;
+
+}
+
+.Card-details-location {
+  display: flex;
+  align-items: center;
+
+}
+
+.Card-country {
+  padding-right: 15px;
+  padding-left: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  /* line-height: 30px; */
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.Card-details-pin {
+  width: 20px;
+  height: 30px;
+}
+
+.Card-map-link {
+  color: gray;
+}
+
+.Card-location-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 20px;
+  color: #2B283A;
+  padding: 8px 0px 8px 0px;
+  margin: 40px 18px 40px 0px;
+}
+
+.Card-time {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1px;
+  color: #2B283A;
+
+}
+
+.Card-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #2B283A;
+  word-spacing: 1px;
 }
